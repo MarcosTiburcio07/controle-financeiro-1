@@ -80,8 +80,7 @@ O **Postman** é utilizado para realizar as requisições HTTP para as APIs. Voc
   - Body (JSON):
     ```json
     {
-      "name": "João Silva",
-      "email": "joao@email.com"
+      "name": "Jorge",
     }
     ```
 - **Listar Clientes (GET)**:
