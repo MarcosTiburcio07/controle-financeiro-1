@@ -29,9 +29,9 @@ import org.springframework.web.bind.annotation.PutMapping;
 
 public class ContasReceberController {
     
-    private String msgErroCliente = "Cliente não existente";
-    private String msgErroValor = "Valor da conta deve ser superior a 0";
-    private String msgErroData = "Data de emissão é posterior a de vencimento";
+    private String msgErroCliente = "Esse cliente não existe.";
+    private String msgErroValor = "Valor inválido, o total da conta deve ser maior que zero.";
+    private String msgErroData = "Data de emissão inválida: deve ser anterior à data de vencimento.";
 
     @Autowired
     private ContasReceberRepository contasReceberRepository;

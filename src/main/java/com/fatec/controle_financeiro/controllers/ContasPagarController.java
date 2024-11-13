@@ -32,9 +32,9 @@ public class ContasPagarController {
 
     Fornecedor fornecedor = new Fornecedor();
 
-    private String msgErroFornecedor = "Fornecedor não existente";
-    private String msgErroValor = "Valor da conta deve superior a 0";
-    private String msgErroData = "Data de emissão é posterior a de vencimento";
+    private String msgErroFornecedor = "Esse fornecedor não existe.";
+    private String msgErroValor = "Valor inválido, o total da conta deve ser maior que zero.";
+    private String msgErroData = "Data de emissão inválida: deve ser anterior à data de vencimento.";
 
     @Autowired
     private ContasPagarRepository contasPagarRepository;
@@ -109,7 +109,4 @@ public class ContasPagarController {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }
-
-
-
 }

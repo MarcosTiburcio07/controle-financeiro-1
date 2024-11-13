@@ -75,7 +75,6 @@ public class ContasReceber {
     }
 
     public Object existsById(long id2) {
-        // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'existsById'");
     }
 }
