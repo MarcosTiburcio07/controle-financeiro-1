@@ -1,4 +1,4 @@
-### README - Projeto de Controle Financeiro
+### Projeto de Controle Financeiro
 
 Este projeto é uma aplicação de controle financeiro desenvolvida em Java utilizando o **Spring Boot**, com operações CRUD (Create, Read, Update e Delete) para **Clientes**, **Fornecedores**, **Contas a Pagar**, e **Contas a Receber**. Utiliza o banco de dados **H2** em memória e o **Postman** para testar as requisições.
 
